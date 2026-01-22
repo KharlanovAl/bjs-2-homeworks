@@ -9,7 +9,7 @@ function getUsersNamesInAgeRange(users, gender) {
 
     const filteredUsers = users.filter(user => user.gender === gender);
 
-    if (filteredUsers.lenght === 0) {
+    if (filteredUsers.length === 0) {
         return 0;
     }
 
